@@ -1,4 +1,4 @@
-# 🚀 AI Chat App — Next.js + OpenAI/Gemini Streaming + Image Upload
+# 🚀 AI Chat App — Next.js + OpenAI Streaming + Image Upload
 
 This is a *Next.js AI Chat Application* featuring:
 
@@ -13,3 +13,25 @@ This project was bootstrapped with [create-next-app](https://github.com/vercel/n
 ---
 
 ## 📁 Folder Structure
+/app
+/api
+/chat
+route.js # Backend API – OpenAI/Gemini streaming logic
+/components
+MessageBubble.js
+page.js # Main UI & chat logic
+globals.css
+
+
+---
+
+## 🛠 Installation
+
+```bash
+npm install
+# or
+yarn
+# or
+pnpm install
+# or
+bun install
