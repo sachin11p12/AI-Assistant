@@ -121,6 +121,6 @@ bottomRef.current?.scrollIntoView({ behavior: "smooth" });
 * Responsive layout
 * Dark-mode-inspired theme
 
+##Screenshot
+<img width="1918" height="967" alt="Screenshot 2025-12-05 231631" src="https://github.com/user-attachments/assets/822f8dcc-30c6-4ad0-a113-4adb4ef1dda3" />
 
-Tell me your preferred style.
-```
