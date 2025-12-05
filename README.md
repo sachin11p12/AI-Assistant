@@ -10,7 +10,7 @@ A modern **Next.js AI Chat Application** featuring:
 
 - Live streaming AI responses  
 - Image upload and paste-to-chat  
-- Support for **OpenAI** and **Gemini**  
+- Support for **OpenAI** 
 - TailwindCSS-powered UI  
 - Built using the **Next.js App Router**
 
@@ -25,7 +25,7 @@ This project was bootstrapped with [create-next-app](https://github.com/vercel/n
 /app
 /api
 /chat
-route.js        # Backend API – OpenAI/Gemini streaming logic
+route.js        # Backend API – OpenAI streaming logic
 /components
 MessageBubble.js
 page.js             # Main UI & chat logic
@@ -77,15 +77,12 @@ Create a `.env.local` file in the project root.
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-### Gemini
 
-```
-GEMINI_API_KEY=your_gemini_key
 ```
 
 ---
 
-## Switch Between OpenAI & Gemini
+## I use OpenAI API keys
 
 Update the API client inside:
 
@@ -93,7 +90,7 @@ Update the API client inside:
 /app/api/chat/route.js
 ```
 
-No frontend changes required.
+
 
 ---
 
